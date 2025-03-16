@@ -24,3 +24,10 @@ int *createCopy(int *array, int size)
 
     return copy;
 }
+
+void swapValues(int *array, int index1, int index2)
+{
+    array[index1] = array[index1] + array[index2];
+    array[index2] = array[index1] - array[index2];
+    array[index1] = array[index1] - array[index2];
+}

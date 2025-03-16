@@ -1,0 +1,1 @@
+int *bubbleSort(int *array, int size, int inPlace);

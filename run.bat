@@ -1,0 +1,1 @@
+docker image build . -t latest && docker run --rm -it latest

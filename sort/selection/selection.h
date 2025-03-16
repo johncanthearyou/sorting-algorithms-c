@@ -1,0 +1,1 @@
+int *selectionSort(int *array, int size, int inPlace);

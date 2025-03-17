@@ -2,6 +2,7 @@
 #include "array/array.h"
 #include "sort/bubble/bubble.h"
 #include "sort/selection/selection.h"
+#include "sort/insertion/insertion.h"
 
 char buffer[256];
 
@@ -16,5 +17,9 @@ int main()
 
     int *selectionSorted = selectionSort(array, 10, 0);
     printf("Selection sorted array: %s\n", toString(selectionSorted, 10, buffer));
+    printf("Initial array: %s\n\n", toString(array, 10, buffer));
+
+    int *insertionSorted = insertionSort(array, 10, 0);
+    printf("Insertion sorted array: %s\n", toString(insertionSorted, 10, buffer));
     printf("Initial array: %s\n\n", toString(array, 10, buffer));
 }

@@ -6,7 +6,7 @@
 /// @param array Pointer to array to be sorted
 /// @param size Number of items in array (limiation of using C arrays)
 /// @param inPlace Wether or not to sort the underlying array or return a newly allocated array
-/// @return
+/// @return Pointer to sorted array, may or may not be the original memory location
 int *selectionSort(int *array, int size, int inPlace)
 {
     int *workingArray = inPlace ? array : createCopy(array, size);

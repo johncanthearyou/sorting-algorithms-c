@@ -12,13 +12,16 @@ int *insertionSort(int *array, int size, int inPlace)
     int *workingArray = inPlace ? array : createCopy(array, size);
     for (int i = 1; i < size; i++)
     {
+        int key = workingArray[i]; // Save the current element
         int j = i - 1;
-        while (j >= 0 && workingArray[j] > workingArray[i])
+
+        // Shift elements greater than key to the right
+        while (j >= 0 && workingArray[j] > key)
         {
             workingArray[j + 1] = workingArray[j];
             j = j - 1;
         }
-        workingArray[j + 1] = workingArray[i];
+        workingArray[j + 1] = key; // Place the key in its correct position
     }
 
     return workingArray;

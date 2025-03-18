@@ -1,6 +1,11 @@
-# Use run.bat to quickly build and run the programz
-FROM gcc:latest
+FROM debian:latest
+RUN apt-get update && \
+    apt-get install -y cmake
+
+COPY . /workspace
 WORKDIR /workspace/
-COPY ./ /workspace/
-RUN gcc main.c array/* sort/*/* -o program
-CMD ["./program"]
+RUN mkdir build && \
+    cd build && \
+    cmake .. && \
+    make
+CMD ["./build/sorting_algorithms"]

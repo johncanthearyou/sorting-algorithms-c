@@ -2,7 +2,7 @@
 
 1. ~~Bubble~~
 2. ~~Selection~~
-3. Insertion
+3. ~~Insertion~~
 4. Quick
 5. Merge
 6. Bucket

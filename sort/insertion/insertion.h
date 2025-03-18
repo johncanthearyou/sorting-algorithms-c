@@ -1,1 +1,0 @@
-int *insertionSort(int *array, int size, int inPlace);

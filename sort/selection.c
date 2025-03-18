@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "../../array/array.h"
 
 /// @brief Seletion sort works by iteratively finding the nth smallest element in and swapping
 ///        with the nth smallest value until the array is sorted.

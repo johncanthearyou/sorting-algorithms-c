@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "../../array/array.h"
 
 /// @brief Insertion sort works by working iteratively to the right, plaing elements into a sorted
 ///        subarray to the left, based on relative value.

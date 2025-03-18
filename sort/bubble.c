@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "../../array/array.h"
 
 /// @brief Bubble sort makes repeated passes through an array, comparing adjacent elements and
 ///        swapping if in improper order. This is repeated until no swaps are made, in which case the array is sorted.

@@ -1,0 +1,8 @@
+Sorting Algorithms Inspiration:
+* https://dev.to/koladev/8-must-know-sorting-algorithms-5ja
+
+C Tips and Tricks:
+* https://youtu.be/9UIIMBqq1D4?si=0RQEo3P1rynsWPut
+
+LLDB Cheat Sheet:
+* https://gist.github.com/ryanchang/a2f738f0c3cc6fbd71fa
